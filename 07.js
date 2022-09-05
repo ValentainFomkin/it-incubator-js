@@ -1,3 +1,3 @@
-let product = 8 * 0;
-//Change the 0 so that product will equal 80.
-product = 8 * 10;
+let quotient = 66 / 0;
+//Change the 0 so that the quotient is equal to 2.
+quotient = 66 / 33;

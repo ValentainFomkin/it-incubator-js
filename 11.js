@@ -1,4 +1,4 @@
-const ourDecimal = 5.7;
+let product = 2.0 * 0.0;
 
 // Change the 0.0 so that product will equal 5.0.
-let myDecimal = 3.2;
+product = 2.0 * 2.5;
