@@ -16,3 +16,10 @@ function friend(friends) {
   return res;
 }
 console.log(friend(['Ryan', 'Kieran', 'Jason', 'Yous', 'lolo']));
+
+// ЛИБО через filter
+
+function friend(friends) {
+  return friends.filter((n) => n.length === 4);
+}
+console.log(friend(['Ryan', 'Kieran', 'Jason', 'Yous', 'lolo']));
