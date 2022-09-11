@@ -1,12 +1,7 @@
 function amIWilson(p) {
-  return (
-    ((Array.from({ length: p - 1 }, (_, index) => index + 1).reduce(
-      (prev, curr) => prev * curr,
-      1
-    ) +
-      1) /
-      (p * p)) %
-      1 ==
-    0
-  );
+  function fact(x) {
+    return x <= 1 ? 1 : x * fact(x - 1);
+  }
+  return ((fact(p - 1) + 1) / (p * p)) % 1 === 0;
 }
+console.log(amIWilson());
